@@ -1,0 +1,5 @@
+ADUsers.exe --add --domain testwvd.pw --ldappath "CN=Users,DC=testwvd,DC=pw" --username testaduser1 --firstname fred --lastname mercury --description "testdesc" --password VMP@ssw0rd
+
+ADUsers.exe --list --domain testwvd.pw --ldappath "CN=Users,DC=testwvd,DC=pw"
+
+ADUsers.exe --remove --domain testwvd.pw --ldappath CN=Users,DC=testwvd,DC=pw --username testaduser1
